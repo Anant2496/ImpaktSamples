@@ -127,7 +127,13 @@
              <version>5.2.1</version>
           </dependency>
     </dependencies>
-    
+    <repositories>
+        
+       <repository>
+          <id> ImpaktAppsRepository </id>
+          <url> http://host.docker.internal/artifactory/runtime_build_repo-libs-release-local/ </url>
+       </repository>
+    </repositories>
         <profiles>
 	<profile>
 		<id>default</id>
