@@ -1,0 +1,43 @@
+
+      {
+  "$type": "Mamba",
+  "entities": [
+    {
+      "$type": "Namespace",
+      "annotation": {
+        "$type": "Annotation",
+        "info": {
+          "$type": "InfoAnnotation",
+          "id": "a3133d391-bc05-447b-a50b-6519c700e0e0",
+          "enabled": false,
+          "expanded": false,
+          "initiate": false,
+          "isDescription": false,
+          "transient": false
+        }
+      },
+      "name": "Entity",
+      "classifiers": [
+        {
+          "$type": "MClass",
+          "annotation": {
+            "$type": "Annotation",
+            "info": {
+              "$type": "InfoAnnotation",
+              "id": "aa3133d391-bc05-447b-a50b-6519c700e0e0",
+              "mclassType": "entity",
+              "enabled": false,
+              "expanded": false,
+              "initiate": false,
+              "isDescription": false,
+              "transient": false
+            }
+          },
+          "name": "Output",
+          "members": []
+        }
+      ]
+    }
+  ]
+}
+        

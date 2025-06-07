@@ -1,0 +1,177 @@
+{
+  "$type": "Mamba",
+  "entities": [
+    {
+      "$type": "Namespace",
+      "annotation": {
+        "$type": "Annotation",
+        "info": {
+          "$type": "InfoAnnotation",
+          "id": "a4a8235a0-78e1-44c9-869f-340889595cc6",
+          "enabled": true,
+          "expanded": true,
+          "isDescription": true,
+          "descriptionText": "",
+          "initiate": false,
+          "transient": false
+        },
+        "unwrap": false
+      },
+      "name": "Rule",
+      "classifiers": [
+        {
+          "$type": "MClass",
+          "annotation": {
+            "$type": "Annotation",
+            "info": {
+              "$type": "InfoAnnotation",
+              "id": "aa597e6ba-3797-4952-b662-b18e861bd591",
+              "enabled": true,
+              "expanded": true,
+              "isDescription": true,
+              "descriptionText": "",
+              "mclassType": "entity",
+              "initiate": false,
+              "transient": false
+            },
+            "unwrap": false
+          },
+          "modifier": "private",
+          "name": "requestHandlerData",
+          "members": [
+            {
+              "$type": "FieldMember",
+              "annotation": {
+                "$type": "Annotation",
+                "info": {
+                  "$type": "InfoAnnotation",
+                  "id": "ad358ea22-ccc8-4087-8aea-66216c4fcc68",
+                  "enabled": true,
+                  "expanded": true,
+                  "isDescription": true,
+                  "descriptionText": "",
+                  "initiate": false,
+                  "transient": false
+                },
+                "unwrap": true
+              },
+              "name": "var",
+              "typeRef": {
+                "$type": "TypeReference",
+                "identifier": {
+                  "$refText": "Variables",
+                  "$ref": "Variables"
+                },
+                "typeArguments": []
+              },
+              "isConst": false,
+              "isInitialized": false
+            }
+          ]
+        },
+        {
+          "$type": "MClass",
+          "annotation": {
+            "$type": "Annotation",
+            "info": {
+              "$type": "InfoAnnotation",
+              "id": "aa1b24cc3-1017-41fd-afe2-a5a9bb31bb72",
+              "enabled": true,
+              "expanded": true,
+              "isDescription": true,
+              "descriptionText": "",
+              "mclassType": "statementRule",
+              "initiate": false,
+              "transient": false
+            },
+            "unwrap": false
+          },
+          "name": "requestHandler",
+          "members": [
+            {
+              "$type": "MethodMember",
+              "name": "execute",
+              "parameters": [
+                {
+                  "$type": "Parameter",
+                  "annotation": {
+                    "$type": "Annotation",
+                    "info": {
+                      "$type": "InfoAnnotation",
+                      "enabled": false,
+                      "expanded": false,
+                      "initiate": false,
+                      "isDescription": false,
+                      "transient": false
+                    },
+                    "unwrap": true
+                  },
+                  "name": "var",
+                  "typeRef": {
+                    "$type": "TypeReference",
+                    "identifier": {
+                      "$refText": "requestHandlerData",
+                      "$ref": "requestHandlerData"
+                    },
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "$type": "TypeReference",
+                "identifier": {
+                  "$refText": "Void",
+                  "$ref": "Void"
+                },
+                "typeArguments": []
+              },
+              "annotation": {
+                "$type": "Annotation",
+                "info": {
+                  "$type": "InfoAnnotation",
+                  "id": "ab8bf05e3-0297-425d-be05-7fa55a744ab6",
+                  "enabled": true,
+                  "expanded": true,
+                  "isDescription": true,
+                  "descriptionText": "",
+                  "initiate": false,
+                  "transient": false
+                },
+                "unwrap": false
+              },
+              "modifiers": [],
+              "body": {
+                "$type": "ExpressionBlock",
+                "statements": [
+                  {
+                    "$type": "AssignExpression",
+                    "annotation": {
+                      "$type": "Annotation",
+                      "unwrap": false,
+                      "info": {
+                        "$type": "InfoAnnotation",
+                        "enabled": true,
+                        "expanded": true,
+                        "initiate": false,
+                        "isDescription": true,
+                        "transient": false,
+                        "descriptionText": "",
+                        "id": "a20c1f8c3-1cb1-48cb-b761-cc836d5778d8"
+                      }
+                    },
+                    "expression": {
+                      "$type": "ExpressionWrapper",
+                      "text": "input_v.vari1=\"one\"",
+                      "hasParsingErrors": false,
+                      "enabled": true
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

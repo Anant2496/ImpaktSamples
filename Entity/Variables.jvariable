@@ -1,0 +1,102 @@
+
+{
+  "$type": "Mamba",
+  "entities": [
+    {
+      "$type": "Namespace",
+      "annotation": {
+        "$type": "Annotation",
+        "info": {
+          "$type": "InfoAnnotation",
+          "id": "abefc7882-e5c8-40f0-8178-ea9ea7b2cd04",
+          "enabled": false,
+          "expanded": false,
+          "initiate": false,
+          "isDescription": false,
+          "transient": false
+        }
+      },
+      "name": "Entity",
+      "classifiers": [
+        {
+          "$type": "MClass",
+          "annotation": {
+            "$type": "Annotation",
+            "info": {
+              "$type": "InfoAnnotation",
+              "id": "aabefc7882-e5c8-40f0-8178-ea9ea7b2cd04",
+              "mclassType": "entity",
+              "enabled": false,
+              "expanded": false,
+              "initiate": false,
+              "isDescription": false,
+              "transient": false
+            }
+          },
+          "name": "Variables",
+          "members": [
+            {
+              "$type": "FieldMember",
+              "annotation": {
+                "$type": "Annotation",
+                "info": {
+                  "$type": "InfoAnnotation",
+                  "id": "a1c7a7de7-a4b6-4340-a2e6-0f31df190b89",
+                  "enabled": false,
+                  "expanded": false,
+                  "initiate": false,
+                  "isDescription": false,
+                  "transient": false
+                }
+              },
+              "modifiers": [
+                "export"
+              ],
+              "name": "input_v",
+              "typeRef": {
+                "$type": "TypeReference",
+                "identifier": {
+                  "$refText": "Input",
+                  "$ref": "##/Entity/Input.jvariable#//entities@0//classifiers@0"
+                },
+                "typeArguments": []
+              },
+              "isConst": false,
+              "isInitialized": true
+            },
+            {
+              "$type": "FieldMember",
+              "annotation": {
+                "$type": "Annotation",
+                "info": {
+                  "$type": "InfoAnnotation",
+                  "id": "aa88ee032-1a8a-454b-81e0-eb3df75cc33b",
+                  "enabled": false,
+                  "expanded": false,
+                  "initiate": false,
+                  "isDescription": false,
+                  "transient": false
+                }
+              },
+              "modifiers": [
+                "export"
+              ],
+              "name": "output_v",
+              "typeRef": {
+                "$type": "TypeReference",
+                "identifier": {
+                  "$refText": "Output",
+                  "$ref": "##/Entity/Output.jvariable#//entities@0//classifiers@0"
+                },
+                "typeArguments": []
+              },
+              "isConst": false,
+              "isInitialized": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+        

@@ -1,0 +1,133 @@
+{
+        "groupName": "com.hyperForm",
+	 	"artifactName": "el",
+	 	"version": "1.0.0",
+	 	"properties": {
+    "dependencies" : [
+        
+         {
+            "groupName": "org.springframework.boot",
+    "artifactName":  "spring-boot-starter-web",
+    "version":  ""
+        },
+         {
+            "groupName": "org.springframework.boot",
+    "artifactName":  "spring-boot-starter-data-jdbc",
+    "version":  ""
+        },
+         {
+            "groupName": "com.fasterxml.jackson.core",
+    "artifactName":  "jackson-core",
+    "version":  "2.14.1"
+        },
+         {
+            "groupName": "org.emfjson",
+    "artifactName":  "emfjson-jackson",
+    "version":  "1.3.0"
+        },
+         {
+            "groupName": "com.fasterxml.jackson.core",
+    "artifactName":  "jackson-databind",
+    "version":  "2.14.1"
+        },
+         {
+            "groupName": "org.springframework.boot",
+    "artifactName":  "spring-boot-starter-test",
+    "version":  ""
+        },
+         {
+            "groupName": "au.com.bytecode",
+    "artifactName":  "opencsv",
+    "version":  "2.4"
+        },
+         {
+            "groupName": "org.apache.poi",
+    "artifactName":  "poi-ooxml",
+    "version":  "4.1.2"
+        },
+         {
+            "groupName": "org.apache.poi",
+    "artifactName":  "poi",
+    "version":  "4.1.2"
+        },
+         {
+            "groupName": "commons-beanutils",
+    "artifactName":  "commons-beanutils",
+    "version":  "1.9.4"
+        },
+         {
+            "groupName": "com.opencsv",
+    "artifactName":  "opencsv",
+    "version":  "5.7.1"
+        },
+         {
+            "groupName": "org.apache.logging.log4j",
+    "artifactName":  "log4j-api",
+    "version":  "2.20.0"
+        },
+         {
+            "groupName": "org.apache.logging.log4j",
+    "artifactName":  "log4j-core",
+    "version":  "2.20.0"
+        },
+         {
+            "groupName": "com.act21.impaktapps",
+    "artifactName":  "impakt-apps-core-next",
+    "version":  "0.1.0"
+        },
+         {
+            "groupName": "org.springdoc",
+    "artifactName":  "springdoc-openapi-ui",
+    "version":  "1.6.12"
+        },
+         {
+            "groupName": "com.itextpdf",
+    "artifactName":  "itextpdf",
+    "version":  "5.5.13.3"
+        },
+         {
+            "groupName": "com.act21",
+    "artifactName":  "rule.engine.commons",
+    "version":  "1.0"
+        },
+         {
+            "groupName": "commons-validator",
+    "artifactName":  "commons-validator",
+    "version":  "1.6"
+        },
+         {
+            "groupName": "org.postgresql",
+    "artifactName":  "postgresql",
+    "version":  "42.5.3"
+        },
+         {
+            "groupName": "com.act21.impaktapps",
+    "artifactName":  "rule-engine",
+    "version":  "12.0.4"
+        },
+         {
+            "groupName": "org.apache.httpcomponents.client5",
+    "artifactName":  "httpclient5",
+    "version":  "5.2.1"
+        }],
+    "applicationProperties" : [
+            {
+                 "server.port" : "8082"
+            },
+            {
+                 "spring.jackson.date-format" : "yyyy-MM-dd HH:mm:ss"
+            },
+            {
+                 "spring.jackson.Serialization.FAIL-ON-EMPTY-BEANS" : "false"
+            },
+            {
+                 "ImpaktAppsRepository" : " https://artifactory.act21.io/artifactory/act21_internal_repo/"
+            }],
+        "repositories" : [
+            {
+                
+    "id" :  "ImpaktAppsRepository",
+    "url" :  "https://artifactory.act21.io/artifactory/act21_internal_repo/"
+            }]
+    }
+}

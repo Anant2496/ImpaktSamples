@@ -1,0 +1,69 @@
+{
+  "$type": "Mamba",
+  "entities": [
+    {
+      "$type": "Namespace",
+      "annotation": {
+        "$type": "Annotation",
+        "info": {
+          "$type": "InfoAnnotation",
+          "id": "a4c6e3719-a181-4e0d-b063-3755c26dcca4",
+          "enabled": false,
+          "expanded": false,
+          "initiate": false,
+          "isDescription": false,
+          "transient": false
+        }
+      },
+      "name": "Entity",
+      "classifiers": [
+        {
+          "$type": "MClass",
+          "annotation": {
+            "$type": "Annotation",
+            "info": {
+              "$type": "InfoAnnotation",
+              "id": "aa4c6e3719-a181-4e0d-b063-3755c26dcca4",
+              "mclassType": "entity",
+              "enabled": false,
+              "expanded": false,
+              "initiate": false,
+              "isDescription": false,
+              "transient": false
+            }
+          },
+          "name": "Input",
+          "members": [
+            {
+              "$type": "FieldMember",
+              "annotation": {
+                "$type": "Annotation",
+                "unwrap": false,
+                "info": {
+                  "$type": "InfoAnnotation",
+                  "enabled": true,
+                  "expanded": true,
+                  "initiate": false,
+                  "isDescription": false,
+                  "transient": false,
+                  "descriptionText": "",
+                  "id": "a946479f9-5922-4a68-a68d-3364c30afaef"
+                }
+              },
+              "name": "vari1",
+              "typeRef": {
+                "$type": "TypeReference",
+                "identifier": {
+                  "$refText": "String",
+                  "$ref": "String"
+                }
+              },
+              "isConst": false,
+              "isInitialized": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
