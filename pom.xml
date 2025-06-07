@@ -127,13 +127,7 @@
              <version>5.2.1</version>
           </dependency>
     </dependencies>
-    <repositories>
-        
-       <repository>
-          <id> ImpaktAppsRepository </id>
-          <url> https://artifactory.act21.io/artifactory/act21_internal_repo/ </url>
-       </repository>
-    </repositories>
+    
         <profiles>
 	<profile>
 		<id>default</id>
