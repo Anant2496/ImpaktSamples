@@ -89,7 +89,7 @@
           <dependency>
              <groupId>com.act21.impaktapps</groupId>
              <artifactId>impakt-apps-core-next</artifactId>
-             <version>0.1.0</version>
+             <version>0.1.2</version>
           </dependency>
           <dependency>
              <groupId>org.springdoc</groupId>
