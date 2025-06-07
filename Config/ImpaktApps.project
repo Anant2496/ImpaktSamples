@@ -121,13 +121,13 @@
                  "spring.jackson.Serialization.FAIL-ON-EMPTY-BEANS" : "false"
             },
             {
-                 "ImpaktAppsRepository" : " https://artifactory.act21.io/artifactory/act21_internal_repo/"
+                 "ImpaktAppsRepository" : " http://localhost:8082/artifactory/runtime_build_repo-libs-release-local/"
             }],
         "repositories" : [
             {
                 
     "id" :  "ImpaktAppsRepository",
-    "url" :  "https://artifactory.act21.io/artifactory/act21_internal_repo/"
+    "url" :  "http://localhost:8082/artifactory/runtime_build_repo-libs-release-local/"
             }]
     }
 }
