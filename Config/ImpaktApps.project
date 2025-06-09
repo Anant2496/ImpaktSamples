@@ -109,6 +109,11 @@
             "groupName": "org.apache.httpcomponents.client5",
     "artifactName":  "httpclient5",
     "version":  "5.2.1"
+        },
+         {
+            "groupName": "com.oracle.database.jdbc",
+    "artifactName":  "ojdbc10",
+    "version":  "19.11.0.0"
         }],
     "applicationProperties" : [
             {
@@ -121,13 +126,13 @@
                  "spring.jackson.Serialization.FAIL-ON-EMPTY-BEANS" : "false"
             },
             {
-                 "ImpaktAppsRepository" : " http://localhost:8082/artifactory/runtime_build_repo-libs-release-local/"
+                 "ImpaktAppsRepository" : " https://artifactory.act21.io/artifactory/act21_internal_repo/"
             }],
         "repositories" : [
             {
                 
     "id" :  "ImpaktAppsRepository",
-    "url" :  "http://localhost:8082/artifactory/runtime_build_repo-libs-release-local/"
+    "url" :  "https://artifactory.act21.io/artifactory/act21_internal_repo/"
             }]
     }
 }

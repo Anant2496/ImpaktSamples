@@ -7,15 +7,16 @@
         "$type": "Annotation",
         "info": {
           "$type": "InfoAnnotation",
-          "id": "a3133d391-bc05-447b-a50b-6519c700e0e0",
+          "id": "a78c6b816-ff37-4c3e-8cac-e8c6e4d018a3",
           "enabled": false,
           "expanded": false,
           "initiate": false,
           "isDescription": false,
           "transient": false
-        }
+        },
+        "unwrap": false
       },
-      "name": "Entity",
+      "name": "Services",
       "classifiers": [
         {
           "$type": "MClass",
@@ -23,19 +24,20 @@
             "$type": "Annotation",
             "info": {
               "$type": "InfoAnnotation",
-              "id": "aa3133d391-bc05-447b-a50b-6519c700e0e0",
-              "mclassType": "entity",
+              "id": "a29c075d9-7bc7-46a9-b539-78353457743f",
+              "mclassType": "service",
               "enabled": false,
               "expanded": false,
               "initiate": false,
               "isDescription": false,
               "transient": false
-            }
+            },
+            "unwrap": false
           },
-          "name": "Output",
+          "name": "dataload",
           "members": [
             {
-              "$type": "FieldMember",
+              "$type": "MethodMember",
               "annotation": {
                 "$type": "Annotation",
                 "unwrap": false,
@@ -47,20 +49,34 @@
                   "isDescription": false,
                   "transient": false,
                   "descriptionText": "",
-                  "id": "a3b4428f6-8a5f-4ccf-a147-f490cbb21804"
+                  "id": "abf38ddd5-d3a4-4aa3-ab99-df7f8e10fa47"
+                },
+                "sqlInfo": {
+                  "$type": "SqlInfoAnnotation",
+                  "isBatch": false,
+                  "query": {
+                    "$type": "ExpressionWrapper",
+                    "text": "\"BEGIN\r\n  INSERT_HARDCODED_JSON();\r\nrollback; \r\nEND;\"",
+                    "hasParsingErrors": false,
+                    "enabled": true
+                  },
+                  "serviceType": "UPDATE",
+                  "resource": {
+                    "$refText": "dbResource",
+                    "$ref": "dbResource"
+                  }
                 }
               },
-              "name": "hm",
-              "typeRef": {
+              "name": "dataload_proced",
+              "parameters": [],
+              "returnType": {
                 "$type": "TypeReference",
                 "identifier": {
-                  "$refText": "com.hyperForm.el.Entity.HyperformMessage",
-                  "$ref": "com.hyperForm.el.Entity.HyperformMessage"
+                  "$refText": "Void",
+                  "$ref": "Void"
                 },
                 "typeArguments": []
-              },
-              "isConst": false,
-              "isInitialized": true
+              }
             }
           ]
         }

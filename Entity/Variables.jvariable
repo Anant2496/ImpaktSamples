@@ -1,4 +1,3 @@
-
 {
   "$type": "Mamba",
   "entities": [
@@ -57,7 +56,7 @@
                 "$type": "TypeReference",
                 "identifier": {
                   "$refText": "Input",
-                  "$ref": "##/Entity/Input.jvariable#//entities@0//classifiers@0"
+                  "$ref": "Input"
                 },
                 "typeArguments": []
               },
@@ -86,7 +85,72 @@
                 "$type": "TypeReference",
                 "identifier": {
                   "$refText": "Output",
-                  "$ref": "##/Entity/Output.jvariable#//entities@0//classifiers@0"
+                  "$ref": "Output"
+                },
+                "typeArguments": []
+              },
+              "isConst": false,
+              "isInitialized": true
+            },
+            {
+              "$type": "FieldMember",
+              "annotation": {
+                "$type": "Annotation",
+                "unwrap": false,
+                "info": {
+                  "$type": "InfoAnnotation",
+                  "enabled": true,
+                  "expanded": true,
+                  "initiate": false,
+                  "isDescription": false,
+                  "transient": false,
+                  "descriptionText": "",
+                  "id": "ad891de38-3659-4866-b26d-e33f54362720"
+                }
+              },
+              "name": "payload",
+              "typeRef": {
+                "$type": "TypeReference",
+                "identifier": {
+                  "$refText": "Map",
+                  "$ref": "Map"
+                },
+                "typeArguments": [
+                  {
+                    "$refText": "String",
+                    "$ref": "String"
+                  },
+                  {
+                    "$refText": "Any",
+                    "$ref": "Any"
+                  }
+                ]
+              },
+              "isConst": false,
+              "isInitialized": true
+            },
+            {
+              "$type": "FieldMember",
+              "annotation": {
+                "$type": "Annotation",
+                "unwrap": false,
+                "info": {
+                  "$type": "InfoAnnotation",
+                  "enabled": true,
+                  "expanded": true,
+                  "initiate": false,
+                  "isDescription": false,
+                  "transient": false,
+                  "descriptionText": "",
+                  "id": "a323c5a96-06c1-42b5-9dcd-61de035ef6c9"
+                }
+              },
+              "name": "terminate",
+              "typeRef": {
+                "$type": "TypeReference",
+                "identifier": {
+                  "$refText": "Boolean",
+                  "$ref": "Boolean"
                 },
                 "typeArguments": []
               },
@@ -99,4 +163,3 @@
     }
   ]
 }
-        

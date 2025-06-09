@@ -1,0 +1,254 @@
+{
+  "$type": "Mamba",
+  "entities": [
+    {
+      "$type": "Namespace",
+      "annotation": {
+        "$type": "Annotation",
+        "info": {
+          "$type": "InfoAnnotation",
+          "id": "a85eeb69a-643e-48a3-ada6-e787662d339d",
+          "enabled": false,
+          "expanded": false,
+          "initiate": false,
+          "isDescription": false,
+          "transient": false
+        },
+        "unwrap": false
+      },
+      "name": "Entity",
+      "classifiers": [
+        {
+          "$type": "MClass",
+          "annotation": {
+            "$type": "Annotation",
+            "info": {
+              "$type": "InfoAnnotation",
+              "id": "ac322eedc-bf13-4389-87b2-a76cebfffe75",
+              "mclassType": "entity",
+              "enabled": false,
+              "expanded": false,
+              "initiate": false,
+              "isDescription": false,
+              "transient": false
+            },
+            "unwrap": false
+          },
+          "name": "HyperformMessage",
+          "members": [
+            {
+              "$type": "FieldMember",
+              "annotation": {
+                "$type": "Annotation",
+                "unwrap": false,
+                "info": {
+                  "$type": "InfoAnnotation",
+                  "enabled": true,
+                  "expanded": true,
+                  "initiate": false,
+                  "isDescription": false,
+                  "transient": false,
+                  "descriptionText": "",
+                  "id": "ab4a60744-7443-412a-89fa-1ef614e21db4"
+                }
+              },
+              "name": "id",
+              "typeRef": {
+                "$type": "TypeReference",
+                "identifier": {
+                  "$refText": "String",
+                  "$ref": "String"
+                },
+                "typeArguments": []
+              },
+              "isConst": false,
+              "isInitialized": true
+            },
+            {
+              "$type": "FieldMember",
+              "annotation": {
+                "$type": "Annotation",
+                "unwrap": false,
+                "info": {
+                  "$type": "InfoAnnotation",
+                  "enabled": true,
+                  "expanded": true,
+                  "initiate": false,
+                  "isDescription": false,
+                  "transient": false,
+                  "descriptionText": "",
+                  "id": "a7c359ec0-b344-42f7-b676-068e5a1311c7"
+                }
+              },
+              "name": "corelationId",
+              "typeRef": {
+                "$type": "TypeReference",
+                "identifier": {
+                  "$refText": "String",
+                  "$ref": "String"
+                }
+              },
+              "isConst": false,
+              "isInitialized": true
+            },
+            {
+              "$type": "FieldMember",
+              "annotation": {
+                "$type": "Annotation",
+                "unwrap": false,
+                "info": {
+                  "$type": "InfoAnnotation",
+                  "enabled": true,
+                  "expanded": true,
+                  "initiate": false,
+                  "isDescription": false,
+                  "transient": false,
+                  "descriptionText": "",
+                  "id": "adf959afa-4aa4-4ed9-8f2e-887de7a51f70"
+                }
+              },
+              "name": "businessKey",
+              "typeRef": {
+                "$type": "TypeReference",
+                "identifier": {
+                  "$refText": "String",
+                  "$ref": "String"
+                }
+              },
+              "isConst": false,
+              "isInitialized": true
+            },
+            {
+              "$type": "FieldMember",
+              "annotation": {
+                "$type": "Annotation",
+                "unwrap": false,
+                "info": {
+                  "$type": "InfoAnnotation",
+                  "enabled": true,
+                  "expanded": true,
+                  "initiate": false,
+                  "isDescription": false,
+                  "transient": false,
+                  "descriptionText": "",
+                  "id": "abc8beb8c-d91e-47d8-82a0-fb8c59921381"
+                }
+              },
+              "name": "additionalArgs",
+              "typeRef": {
+                "$type": "TypeReference",
+                "identifier": {
+                  "$refText": "Map",
+                  "$ref": "Map"
+                },
+                "typeArguments": [
+                  {
+                    "$refText": "String",
+                    "$ref": "String"
+                  },
+                  {
+                    "$refText": "Any",
+                    "$ref": "Any"
+                  }
+                ]
+              },
+              "isConst": false,
+              "isInitialized": true
+            },
+            {
+              "$type": "FieldMember",
+              "annotation": {
+                "$type": "Annotation",
+                "unwrap": false,
+                "info": {
+                  "$type": "InfoAnnotation",
+                  "enabled": true,
+                  "expanded": true,
+                  "initiate": false,
+                  "isDescription": false,
+                  "transient": false,
+                  "descriptionText": "",
+                  "id": "a3943f466-6a23-4088-a107-fe0642e472a5"
+                }
+              },
+              "name": "payload",
+              "typeRef": {
+                "$type": "TypeReference",
+                "identifier": {
+                  "$refText": "Map",
+                  "$ref": "Map"
+                },
+                "typeArguments": [
+                  {
+                    "$refText": "String",
+                    "$ref": "String"
+                  },
+                  {
+                    "$refText": "Any",
+                    "$ref": "Any"
+                  }
+                ]
+              },
+              "isConst": false,
+              "isInitialized": true
+            },
+            {
+              "$type": "FieldMember",
+              "annotation": {
+                "$type": "Annotation",
+                "unwrap": false,
+                "info": {
+                  "$type": "InfoAnnotation",
+                  "enabled": true,
+                  "expanded": true,
+                  "initiate": false,
+                  "isDescription": false,
+                  "transient": false,
+                  "descriptionText": "",
+                  "id": "a6aee0549-1ef2-4ff3-a960-a4da50b056fe"
+                }
+              },
+              "name": "messageType",
+              "typeRef": {
+                "$type": "TypeReference",
+                "identifier": {
+                  "$refText": "String",
+                  "$ref": "String"
+                }
+              },
+              "isConst": false,
+              "isInitialized": true
+            },
+            {
+              "$type": "FieldMember",
+              "annotation": {
+                "$type": "Annotation",
+                "unwrap": false,
+                "info": {
+                  "$type": "InfoAnnotation",
+                  "enabled": true,
+                  "expanded": true,
+                  "initiate": false,
+                  "isDescription": false,
+                  "transient": false,
+                  "descriptionText": "",
+                  "id": "a3761bf5a-2dfc-4d31-ac41-8f85e23964f7"
+                }
+              },
+              "name": "replyTo",
+              "typeRef": {
+                "$type": "TypeReference",
+                "identifier": {
+                  "$refText": "String",
+                  "$ref": "String"
+                }
+              },
+              "isConst": false,
+              "isInitialized": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

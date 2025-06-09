@@ -165,6 +165,144 @@
                       "hasParsingErrors": false,
                       "enabled": true
                     }
+                  },
+                  {
+                    "$type": "AssignExpression",
+                    "annotation": {
+                      "$type": "Annotation",
+                      "unwrap": false,
+                      "info": {
+                        "$type": "InfoAnnotation",
+                        "enabled": true,
+                        "expanded": true,
+                        "initiate": false,
+                        "isDescription": true,
+                        "transient": false,
+                        "descriptionText": "",
+                        "id": "a5afb708e-ef0f-421c-9caf-5a5af5c0dc74"
+                      }
+                    },
+                    "expression": {
+                      "$type": "ExpressionWrapper",
+                      "text": "payload=toMap(output_v.hm.payload)",
+                      "hasParsingErrors": false,
+                      "enabled": true
+                    }
+                  },
+                  {
+                    "$type": "AssignExpression",
+                    "annotation": {
+                      "$type": "Annotation",
+                      "unwrap": false,
+                      "info": {
+                        "$type": "InfoAnnotation",
+                        "enabled": true,
+                        "expanded": true,
+                        "initiate": false,
+                        "isDescription": true,
+                        "transient": false,
+                        "descriptionText": "",
+                        "id": "afc9661a2-c402-4197-a6bb-5465c0ea063e"
+                      }
+                    },
+                    "expression": {
+                      "$type": "ExpressionWrapper",
+                      "text": "payload[\"terminate\"]=TRUE",
+                      "hasParsingErrors": false,
+                      "enabled": true
+                    }
+                  },
+                  {
+                    "$type": "AssignExpression",
+                    "annotation": {
+                      "$type": "Annotation",
+                      "unwrap": false,
+                      "info": {
+                        "$type": "InfoAnnotation",
+                        "enabled": true,
+                        "expanded": true,
+                        "initiate": false,
+                        "isDescription": true,
+                        "transient": false,
+                        "descriptionText": "",
+                        "id": "aa6d766f3-c35a-4195-9bc4-08b6f18b0c48"
+                      }
+                    },
+                    "expression": {
+                      "$type": "ExpressionWrapper",
+                      "text": "output_v.hm.payload=payload",
+                      "hasParsingErrors": false,
+                      "enabled": true
+                    }
+                  },
+                  {
+                    "$type": "AssignExpression",
+                    "annotation": {
+                      "$type": "Annotation",
+                      "unwrap": false,
+                      "info": {
+                        "$type": "InfoAnnotation",
+                        "enabled": true,
+                        "expanded": true,
+                        "initiate": false,
+                        "isDescription": true,
+                        "transient": false,
+                        "descriptionText": "",
+                        "id": "a567acf53-1886-4058-842b-6e4404f239e1"
+                      }
+                    },
+                    "expression": {
+                      "$type": "ExpressionWrapper",
+                      "text": "output_v.hm.corelationId=input_v.hm.id",
+                      "hasParsingErrors": false,
+                      "enabled": true
+                    }
+                  },
+                  {
+                    "$type": "AssignExpression",
+                    "annotation": {
+                      "$type": "Annotation",
+                      "unwrap": false,
+                      "info": {
+                        "$type": "InfoAnnotation",
+                        "enabled": true,
+                        "expanded": true,
+                        "initiate": false,
+                        "isDescription": true,
+                        "transient": false,
+                        "descriptionText": "",
+                        "id": "afa33db8d-6c7e-4009-ad7b-5dd39a8a980a"
+                      }
+                    },
+                    "expression": {
+                      "$type": "ExpressionWrapper",
+                      "text": "output_v.hm.messageType=\"payoutDataLoadResponse\"",
+                      "hasParsingErrors": false,
+                      "enabled": true
+                    }
+                  },
+                  {
+                    "$type": "AssignExpression",
+                    "annotation": {
+                      "$type": "Annotation",
+                      "unwrap": false,
+                      "info": {
+                        "$type": "InfoAnnotation",
+                        "enabled": true,
+                        "expanded": true,
+                        "initiate": false,
+                        "isDescription": true,
+                        "transient": false,
+                        "descriptionText": "",
+                        "id": "a3999671a-59cd-4d91-96a8-1328af6048a9"
+                      }
+                    },
+                    "expression": {
+                      "$type": "ExpressionWrapper",
+                      "text": "dataload.dataload_proced()",
+                      "hasParsingErrors": false,
+                      "enabled": true
+                    }
                   }
                 ]
               }

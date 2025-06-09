@@ -11,10 +11,12 @@ public class Input implements Serializable{
       private static Logger logger = LogManager.getLogger(Input.class.getName());
 
       private String vari1;
+      private HyperformMessage hm;
 
       public Input(){
          
          this.vari1 = "";
+         this.hm = new HyperformMessage();
       
       }
 
@@ -26,6 +28,15 @@ public class Input implements Serializable{
          
       public void setVari1(String vari1){
          this.vari1 = vari1;
+      }
+      
+      public HyperformMessage getHm(){
+         return this.hm;
+      }
+      
+         
+      public void setHm(HyperformMessage hm){
+         this.hm = hm;
       }
       
 

@@ -89,7 +89,7 @@
           <dependency>
              <groupId>com.act21.impaktapps</groupId>
              <artifactId>impakt-apps-core-next</artifactId>
-             <version>0.1.2</version>
+             <version>0.1.0</version>
           </dependency>
           <dependency>
              <groupId>org.springdoc</groupId>
@@ -126,12 +126,17 @@
              <artifactId>httpclient5</artifactId>
              <version>5.2.1</version>
           </dependency>
+          <dependency>
+             <groupId>com.oracle.database.jdbc</groupId>
+             <artifactId>ojdbc10</artifactId>
+             <version>19.11.0.0</version>
+          </dependency>
     </dependencies>
     <repositories>
         
        <repository>
           <id> ImpaktAppsRepository </id>
-          <url> http://host.docker.internal:8082/artifactory/runtime_build_repo-libs-release-local/ </url>
+          <url> https://artifactory.act21.io/artifactory/act21_internal_repo/ </url>
        </repository>
     </repositories>
         <profiles>

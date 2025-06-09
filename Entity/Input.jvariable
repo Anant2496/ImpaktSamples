@@ -60,6 +60,34 @@
               },
               "isConst": false,
               "isInitialized": true
+            },
+            {
+              "$type": "FieldMember",
+              "annotation": {
+                "$type": "Annotation",
+                "unwrap": false,
+                "info": {
+                  "$type": "InfoAnnotation",
+                  "enabled": true,
+                  "expanded": true,
+                  "initiate": false,
+                  "isDescription": false,
+                  "transient": false,
+                  "descriptionText": "",
+                  "id": "a8f82ba31-24f2-403b-b783-8523fcfb9a9c"
+                }
+              },
+              "name": "hm",
+              "typeRef": {
+                "$type": "TypeReference",
+                "identifier": {
+                  "$refText": "com.hyperForm.el.Entity.HyperformMessage",
+                  "$ref": "com.hyperForm.el.Entity.HyperformMessage"
+                },
+                "typeArguments": []
+              },
+              "isConst": false,
+              "isInitialized": true
             }
           ]
         }
